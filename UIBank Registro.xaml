@@ -71,6 +71,7 @@
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="UIBank_Registro" sap:VirtualizedContainerService.HintSize="476,5536" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -350,7 +351,7 @@
               </uix:NGetText.Text>
             </uix:NGetText>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Prueba GIThub&quot;]" />
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn" Message="[&quot;Otra prueba&quot;]" />
+            <ui:LogMessage DisplayName="Mensaje Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn" Message="[&quot;Otra prueba&quot;]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
